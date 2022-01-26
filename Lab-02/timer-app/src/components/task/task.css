@@ -1,0 +1,81 @@
+.works{
+       height: 100%;
+       width: 300px;
+       border: 1px solid;
+       align-items: center;
+       justify-content: flex-start;
+       
+       
+}
+
+.title{
+       color: black;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-weight: bold;
+       margin-left: 10px;
+}
+.project_title{
+       color: gray;
+       font-weight: bold;
+       font-size: 17px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       margin-left: 10px;
+} 
+
+.iconItem{
+       display: flex;
+       margin-top: 20px;
+       margin-left: 250px;
+       cursor: pointer;
+}
+.delIcon{
+       color: rgb(170, 9, 9);
+}
+.editIcon{
+       color: rgb(81, 81, 184);
+}
+
+.form{
+       height: 200px;
+       width: 300px;
+       border: 1px solid;
+}
+
+.timerInput__label{
+       font-size: 17px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.timerInput{
+       height: 2.5vh;
+       width: 250px;
+       padding: 0.5vh 0.5vw;
+       align-items: center;
+       margin-left: 10px;
+}
+
+.form_btn{
+       margin-top: 20px;
+       display: flex;
+       align-self: auto;
+       justify-content: space-around;
+}
+
+.edit_btn{
+  width: 9vw;
+  height: 4vh;
+  border: 0.1em solid blue;
+  color: blue;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.cancel_btn{
+  width: 9vw;
+  height: 4vh;
+  border: 0.1em solid red;
+  color: red;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}

@@ -1,0 +1,39 @@
+.timer{
+    height: 30px;
+    width: 100%;
+    position: relative;
+    align-self: center;
+    margin-left: 100px;
+    
+}
+
+.start_btn{
+  width: 250px;
+  height: 4vh;
+  border: 0.1em solid green;
+  color: green;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 23px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 17px;
+  border-radius: 30px;
+}
+
+.stop_btn{
+  width: 250px;
+  height: 4vh;
+  border: 0.1em solid rgb(163, 14, 8);
+  color: rgb(145, 5, 5);
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 23px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 17px;
+  border-radius: 30px;
+
+}
